@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="20dp"
+    android:stretchColumns="0,1,2"
+    tools:context=".activity_examen_primera_evaluacion">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:background="#356756"
+            android:padding="3dp"
+            android:text="Producto"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/subtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#356756"
+            android:padding="3dp"
+            android:text="Subtotal"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/producto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="Jabón de manos x 1" />
+
+        <TextView
+            android:id="@+id/precio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="$2" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/producto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="Shampoo Monster x 1" />
+
+        <TextView
+            android:id="@+id/precio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="$10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/producto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="Pastas Duria x 2" />
+
+        <TextView
+            android:id="@+id/precio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="$18" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/producto4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:padding="3dp"
+            android:text="Detergente Limpiadin x 1" />
+
+        <TextView
+            android:id="@+id/precio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="$13,4" />
+
+    </TableRow>
+
+    <!-- Separador goes here -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/separador"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_span="4"
+            android:background="@color/black" />
+
+    </TableRow>
+
+    <!-- End of Separador -->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/spaceAtFirst1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_span="2" />
+
+        <TextView
+            android:id="@+id/subtotalEndText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Subtotal"
+            android:textColor="#356756" />
+
+        <TextView
+            android:id="@+id/montoSubtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="$43,4" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/spaceAtFirst2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2" />
+
+        <TextView
+            android:id="@+id/costoEnvio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Costo envío"
+            android:textColor="#356756" />
+
+        <TextView
+            android:id="@+id/montoEnvio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$10" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/spaceAtFirst3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2" />
+
+        <TextView
+            android:id="@+id/cupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Cupón"
+            android:textColor="#356756" />
+
+        <TextView
+            android:id="@+id/montoCupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-$5" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/spaceAtFirst4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="#356756" />
+
+        <TextView
+            android:id="@+id/montoTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$48,4" />
+
+    </TableRow>
+
+
+</TableLayout>
